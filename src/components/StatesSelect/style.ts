@@ -7,7 +7,7 @@ export const StatesSelectStyled = styled.div`
     margin-top: 3rem;
   }
   > select {
-    margin-top: 3rem;
+    margin: 3rem 0;
     height: 50px;
     border-radius: 8px;
     padding: 5px;
