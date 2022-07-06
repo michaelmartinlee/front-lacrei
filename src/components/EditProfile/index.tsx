@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
 import { Button } from "../Button";
+import { LabelInput } from "../LabelInput";
+import { LabelTextarea } from "../LabelTextarea";
 import { DivButtons, DivInputs, DivUser, FormStyled } from "./style";
 
 const textareaFields = [
@@ -8,7 +11,6 @@ const textareaFields = [
 ]
 
 export function EditProfile() {
-
   return (
     <main>
       <DivUser>
@@ -16,27 +18,19 @@ export function EditProfile() {
         <p>Trocar foto perfil</p>
       </DivUser>
       <FormStyled action="">
-        <DivInputs>
-          <label htmlFor="Nome">Nome</label>
-          <input type="text" id="nome" />
-        </DivInputs>
-        <DivInputs>
-          <label htmlFor="Nome">Nome de usuário</label>
-          <input type="text"/>
-        </DivInputs>
+        <LabelInput title="Nome"/>
+        <LabelInput title="Nome de usuário"/>
           {textareaFields.map((element, index)=> (
-            <DivInputs key={element.title+index}>
-              <label htmlFor={element.title}>{element.title}</label>
-              <p >{element.subtitle}</p>
-              <textarea  required minLength={280} maxLength={500} id={element.title} />
-            </DivInputs>
+            <LabelTextarea 
+            key={element.title+index}
+            title={element.title} 
+            subtitle={element.subtitle} />     
           ))}
           <DivButtons>
-              <Button text="Cancelar"/>
+              <Link to={"/perfil"}><Button text="Cancelar"/></Link>
               <Button text="Salvar"/>
           </DivButtons>
       </FormStyled>
-        
     </main>
   )
 }

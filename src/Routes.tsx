@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes as RoutesReact} from "react-router-dom";
 import { EditProfile } from "./components/EditProfile";
+import { ProfessionalData } from "./components/ProfessionalData";
+import { Profile } from "./components/Profile";
 import { Home } from "./pages/Home";
 
 export function Routes(){
@@ -7,7 +9,9 @@ export function Routes(){
     <BrowserRouter>
       <RoutesReact>
         <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<EditProfile />} />
+        <Route path="/perfil" element={<Profile />} />
+        <Route path="/perfil/editar" element={<EditProfile />} />
+        <Route path="/perfil/dados-profissionais" element={<ProfessionalData />} />
       </RoutesReact>
     </BrowserRouter>
   )

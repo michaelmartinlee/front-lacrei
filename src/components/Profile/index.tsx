@@ -1,7 +1,7 @@
 import { DivButtons, DivUser, LinkEdit, LinkEditProfile } from "./style";
 
 const buttonsRedirect = [
-  {tile:"Dados Profissionais", redirect: "/"},
+  {tile:"Dados Profissionais", redirect: "/perfil/dados-profissionais"},
   {tile:"Identidade", redirect: "/"},
   {tile:"Consultório", redirect: "/"},
   {tile:"Serviços", redirect: "/"},
@@ -9,20 +9,18 @@ const buttonsRedirect = [
   {tile:"Sair", redirect: "/"},
 ]
 
-
 export function Profile() {
-
   return (
     <main>
       <DivUser>
         <img src="https://picsum.photos/200/300" alt="" />
         <p>@Nome Usuario</p>
-        <LinkEditProfile to={""}>editar perfil</LinkEditProfile>
+        <LinkEditProfile to={"/perfil/editar"}>editar perfil</LinkEditProfile>
       </DivUser>
       <DivButtons>
         {buttonsRedirect.map((element,index)=>(
           <LinkEdit
-          id={element.tile+index} 
+          key={element.tile+index} 
           to={element.redirect}
           >
             {element.tile}

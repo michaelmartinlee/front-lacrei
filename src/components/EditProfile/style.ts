@@ -21,7 +21,6 @@ export const DivUser = styled.div`
 export const FormStyled = styled.form`
       margin: 140px 60px;
 
-
 `
 
 export const DivInputs = styled.div`
@@ -50,9 +49,6 @@ export const DivInputs = styled.div`
       background-color: #D9D9D9;
       border: none;
       resize: none;
-      :focus{
-        border: yellow
-      }
     }
 `
 
