@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import { Button } from "../../components/Button";
+import { ButtonBackProgress } from "../../components/ButtonBackProgress";
 import { LabelInput } from "../../components/LabelInput";
 import { LabelTextarea } from "../../components/LabelTextarea";
-import { DivButtons, DivUser, FormStyled } from "./style";
+import { DivUser, FormStyled } from "./style";
 
 const textareaFields = [
   {title:"Descrição da sua foto*", subtitle:"Ex: mulher branca com cabelo cacheado escuro. Usa camisa rosa e sorri para a foto"},
@@ -26,10 +25,12 @@ export function EditProfile() {
             title={element.title} 
             subtitle={element.subtitle} />     
           ))}
-          <DivButtons>
-              <Link to={"/perfil"}><Button text="Cancelar"/></Link>
-              <Button text="Salvar"/>
-          </DivButtons>
+        <ButtonBackProgress 
+        buttonLeft="Cancelar"
+        buttonRight="Salvar"
+        redirectLeft="/"
+        redirectRight="/"
+        />
       </FormStyled>
     </main>
   )

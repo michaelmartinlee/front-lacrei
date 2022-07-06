@@ -7,7 +7,6 @@ import { Profile } from "./pages/Profile";
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
-import PreRegister from "./pages/PreRegister";
 
 export function Routes() {
   return (
@@ -21,7 +20,6 @@ export function Routes() {
           <Route path="/perfil" element={<Profile />} />
           <Route path="/perfil/editar" element={<EditProfile />} />
           <Route path="/perfil/dados-profissionais" element={<ProfessionalData />} />
-          <Route path="/pre-cadastrar" element ={<PreRegister/>} />
         </RoutesReact>
       </BrowserRouter>
     <Footer />
