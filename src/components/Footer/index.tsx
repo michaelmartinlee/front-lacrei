@@ -1,6 +1,6 @@
 import { Wrapper } from "./styles";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <Wrapper>
       <div>
@@ -17,4 +17,3 @@ const Footer = () => {
     </Wrapper>
   );
 };
-export default Footer;

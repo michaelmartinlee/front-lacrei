@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { Button } from "../Button";
-import { LabelInput } from "../LabelInput";
-import { LabelTextarea } from "../LabelTextarea";
+import { Button } from "../../components/Button";
+import { LabelInput } from "../../components/LabelInput";
+import { LabelTextarea } from "../../components/LabelTextarea";
 import { DivButtons, DivInputRadio, FormStyled } from "./style";
 
   const buttonsRadio = [
@@ -21,8 +21,8 @@ export function ProfessionalData() {
   return (
     <main>
       <FormStyled action="">
-        <LabelInput labelTitle="RQE (Registro de Qualificação de Especialista)"/>
-        <LabelInput labelTitle="Especialização"/>
+        <LabelInput title="RQE (Registro de Qualificação de Especialista)"/>
+        <LabelInput title="Especialização"/>
         <DivInputRadio>
           <label htmlFor="Profissão">Profissão</label>
             {buttonsRadio.map((element,index) => (
@@ -37,7 +37,7 @@ export function ProfessionalData() {
                 </label>
             ))}
         </DivInputRadio>
-        <LabelInput labelTitle="Público Alvo"/>
+        <LabelInput title="Público Alvo"/>
         <LabelTextarea title="Tratamento de doenças"/>
         <DivButtons>
           <Link to={"/perfil"}><Button text="Cancelar"/></Link>

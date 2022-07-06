@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { Button } from "../Button";
-import { LabelInput } from "../LabelInput";
-import { LabelTextarea } from "../LabelTextarea";
-import { DivButtons, DivInputs, DivUser, FormStyled } from "./style";
+import { Button } from "../../components/Button";
+import { LabelInput } from "../../components/LabelInput";
+import { LabelTextarea } from "../../components/LabelTextarea";
+import { DivButtons, DivUser, FormStyled } from "./style";
 
 const textareaFields = [
   {title:"Descrição da sua foto*", subtitle:"Ex: mulher branca com cabelo cacheado escuro. Usa camisa rosa e sorri para a foto"},

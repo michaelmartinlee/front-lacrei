@@ -1,7 +1,7 @@
-import logo from "./../../public/images/logo.png";
+import logo from "../../assets/images/logo.png";
 import { Imagem, Wrapper } from "./styles";
 
-const Header = () => {
+export const Header = () => {
   const routes = [{ label: "quem somos", path: "/quem-somos" }];
   return (
     <Wrapper>
@@ -14,4 +14,3 @@ const Header = () => {
     </Wrapper>
   );
 };
-export default Header;
