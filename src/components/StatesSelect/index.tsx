@@ -3,6 +3,7 @@ export default function StatesSelect(){
     <div>
     <label htmlFor="">Primeiro gostaríamos de saber em qual estado você trabalha</label>
     <select name="estados">
+      <option value="default"></option>
       <option value="Acre">Acre</option>
       <option value="Alagoas">Alagoas</option>
       <option value="Amapá">Amapá</option>
