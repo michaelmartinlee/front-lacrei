@@ -1,10 +1,11 @@
 import StatesSelect from "../../components/StatesSelect"
+import { DivStyled } from "../../pages/PreRegister/style"
 export default function PreRegister(){
   return(
-  <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta facere, porro quibusdam et maiores?
+  <DivStyled>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque id vero aliquam tenetur commodi veniam omnis impedit atque beatae quasi?
     </p>
     <StatesSelect />
-  </div>
+  </DivStyled>
   )
 }

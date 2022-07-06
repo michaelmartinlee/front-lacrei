@@ -1,6 +1,8 @@
+import { StatesSelectStyled } from "./style"
+
 export default function StatesSelect(){
   return(
-    <div>
+    <StatesSelectStyled>
     <label htmlFor="">Primeiro gostaríamos de saber em qual estado você trabalha</label>
     <select name="estados">
       <option value="default"></option>
@@ -32,6 +34,6 @@ export default function StatesSelect(){
       <option value="Sergipe">Sergipe</option>
       <option value="Tocantins">Tocantins</option>
     </select>
-    </div>
+    </StatesSelectStyled>
   )
 }
