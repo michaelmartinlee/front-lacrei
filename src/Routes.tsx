@@ -16,6 +16,7 @@ import ConditionsAndTerms from './pages/ConditionsAndTerms'
 import Register1 from './pages/Register1'
 import Register2 from './pages/Register2'
 import Register3 from './pages/Register3'
+import Register4 from './pages/Register4'
 
 export function Routes() {
   return (
@@ -47,6 +48,7 @@ export function Routes() {
           <Route path="/cadastro/1" element={<Register1 />} />
           <Route path="/cadastro/2" element={<Register2 />} />
           <Route path="/cadastro/3" element={<Register3 />} />
+          <Route path="/cadastro/4" element={<Register4 />} />
         </RoutesReact>
       </BrowserRouter>
       <Footer />
