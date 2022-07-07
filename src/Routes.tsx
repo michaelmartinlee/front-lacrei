@@ -10,6 +10,8 @@ import { Register } from "./pages/Register";
 import PreRegister from "./pages/PreRegister";
 import { PreRegisterOther } from "./pages/PreRegisterOther";
 import { PreRegisterOther2 } from "./pages/PreRegisterOther2";
+import PreRegisterSP1 from "./pages/PreRegisterSP1";
+import PreRegisterSP2 from "./pages/PreRegisterSP2";
 
 export function Routes() {
   return (
@@ -26,6 +28,8 @@ export function Routes() {
           <Route path="/pre-cadastro" element={<PreRegister />} />
           <Route path="/pre-cadastro/outros-estados" element={<PreRegisterOther />} />
           <Route path="/pre-cadastro/outros-estados-2" element={<PreRegisterOther2 />} />
+          <Route path="/pre-cadastro/sp1" element={<PreRegisterSP1 />} />
+          <Route path="/pre-cadastro/sp2" element={<PreRegisterSP2 />} />
         </RoutesReact>
       </BrowserRouter>
     <Footer />
