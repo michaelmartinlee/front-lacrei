@@ -12,7 +12,7 @@ export const DivLabelInput = styled.div`
   > input {
     height: 52px;
     border-radius: 10px;
-    background-color: #d9d9d9;
+    background-color: white;
     border: none;
     padding: 8px;
   }

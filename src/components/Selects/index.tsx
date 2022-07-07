@@ -41,9 +41,7 @@ const specialtyOptionsTitle = [
 export function StatesSelect() {
   return (
     <StatesSelectStyled>
-      <label htmlFor="">
-        Primeiro gostaríamos de saber em qual estado você trabalha
-      </label>
+      <label htmlFor="">Em qual Estado você trabalha?</label>
       <select name="estados">
         <option value="default"></option>
         {statesOptionsTitle.map((element, index) => (

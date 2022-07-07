@@ -1,4 +1,4 @@
-import RegisterH2 from '../../components/RegisterH2'
+import H2 from '../../components/H2'
 import { LabelInput } from '../../components/LabelInput'
 import { LabelTextarea } from '../../components/LabelTextarea'
 import { SpecialtySelect } from '../../components/Selects'
@@ -8,7 +8,7 @@ import { MainStyled } from './style'
 export default function Register3() {
   return (
     <MainStyled>
-      <RegisterH2 text="Dados profissionais" />
+      <H2 text="Dados profissionais" />
       <LabelInput title="Profissão" />
       <LabelInput title="Número de inscrição do conselho" />
       <SpecialtySelect />

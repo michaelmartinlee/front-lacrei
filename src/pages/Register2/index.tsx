@@ -1,4 +1,4 @@
-import RegisterH2 from '../../components/RegisterH2'
+import H2 from '../../components/H2'
 import { LabelTextarea } from '../../components/LabelTextarea'
 import { LinkFoward } from '../../components/LinkFoward'
 import { MainStyled } from './style'
@@ -7,7 +7,7 @@ export default function Register2() {
   return (
     <MainStyled>
       {/* componente de progresso */}
-      <RegisterH2 text="Dados pessoais" />
+      <H2 text="Dados pessoais" />
       <p>Insira a sua foto de perfil</p>
       <span>
         São aceitos os formatos jpg e png.<br></br> Tamanho máximo de 5MB
