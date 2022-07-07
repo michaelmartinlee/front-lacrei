@@ -30,7 +30,7 @@ export default function Register3() {
         buttonLeft="Voltar"
         buttonRight="Continuar"
         redirectLeft="/cadastro/2"
-        redirectRight="/cadastro/3"
+        redirectRight="/cadastro/4"
       />
     </MainStyled>
   )
