@@ -1,7 +1,7 @@
 import { DivLabelTextarea } from './style'
 
 interface ILabelTextarea {
-  title: string
+  title?: string
   subtitle?: string
 }
 

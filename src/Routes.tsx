@@ -15,6 +15,7 @@ import PreRegisterSP2 from './pages/PreRegisterSP2'
 import ConditionsAndTerms from './pages/ConditionsAndTerms'
 import Register1 from './pages/Register1'
 import Register2 from './pages/Register2'
+import Register3 from './pages/Register3'
 
 export function Routes() {
   return (
@@ -45,6 +46,7 @@ export function Routes() {
           <Route path="/termos-condicoes" element={<ConditionsAndTerms />} />
           <Route path="/cadastro/1" element={<Register1 />} />
           <Route path="/cadastro/2" element={<Register2 />} />
+          <Route path="/cadastro/3" element={<Register3 />} />
         </RoutesReact>
       </BrowserRouter>
       <Footer />
