@@ -12,8 +12,8 @@ export function PreRegisterOther(){
       <ButtonBackProgress 
       buttonLeft="Voltar"
       buttonRight="Enviar"
-      redirectLeft="/"
-      redirectRight="/"
+      redirectLeft="/pre-cadastro"
+      redirectRight="/pre-cadastro/outros-estados-2"
       />
     </DivStyled>
   )

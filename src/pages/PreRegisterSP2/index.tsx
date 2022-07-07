@@ -1,5 +1,7 @@
 import { LabelInput } from "../../components/LabelInput"
 import { MainStyled, DivStyled } from "./style"
+import { ButtonBackProgress } from "../../components/ButtonBackProgress"
+
 export default function PreRegisterSP2 (){
   return(
     <MainStyled>
@@ -17,7 +19,7 @@ export default function PreRegisterSP2 (){
       <label htmlFor="termos">Li e concordo com os Termos de Uso
       e Política de Privacidade.</label>
       </DivStyled>
-      {/* componentes dos botoes um ao lado do outro */}
+      <ButtonBackProgress buttonLeft="Voltar" buttonRight="Enviar" redirectLeft="/pre-cadastro/sp1" redirectRight="/pre-cadastro/outros-estados-2" />
     </MainStyled>
   )
 }

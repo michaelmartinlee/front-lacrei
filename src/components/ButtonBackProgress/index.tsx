@@ -13,7 +13,7 @@ export function ButtonBackProgress(props:IButtonBackProgressProps){
   return(
     <DivButtons>
         <Link to={props.redirectLeft}><Button text={props.buttonLeft}/></Link>
-        <Link to={props.redirectLeft}><Button text={props.buttonRight}/></Link>
+        <Link to={props.redirectRight}><Button text={props.buttonRight}/></Link>
     </DivButtons>
   )
 }
