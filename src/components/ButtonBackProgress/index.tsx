@@ -5,8 +5,8 @@ import { DivButtons } from "./style";
 interface IButtonBackProgressProps{
   buttonLeft:string;
   buttonRight:string;
-  redirectLeft?:string;
-  redirectRight?:string;
+  redirectLeft:string;
+  redirectRight:string;
 }
 
 export function ButtonBackProgress(props:IButtonBackProgressProps){
