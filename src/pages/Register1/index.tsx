@@ -8,7 +8,7 @@ export default function Register1() {
         quais vão ser as etapas?
       </p>
       {/* espaço para foto */}
-      <LinkFoward destiny="/" text="Concluir cadastro" />
+      <LinkFoward destiny="/cadastro/2" text="Concluir cadastro" />
     </MainStyled>
   )
 }
