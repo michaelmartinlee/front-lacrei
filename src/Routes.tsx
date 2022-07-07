@@ -8,6 +8,8 @@ import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
 import PreRegister from "./pages/PreRegister";
+import { PreRegisterOther } from "./pages/PreRegisterOther";
+import { PreRegisterOther2 } from "./pages/PreRegisterOther2";
 
 export function Routes() {
   return (
@@ -22,6 +24,8 @@ export function Routes() {
           <Route path="/perfil/editar" element={<EditProfile />} />
           <Route path="/perfil/dados-profissionais" element={<ProfessionalData />} />
           <Route path="/pre-cadastro" element={<PreRegister />} />
+          <Route path="/pre-cadastro/outros-estados" element={<PreRegisterOther />} />
+          <Route path="/pre-cadastro/outros-estados-2" element={<PreRegisterOther2 />} />
         </RoutesReact>
       </BrowserRouter>
     <Footer />
