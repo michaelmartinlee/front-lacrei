@@ -1,6 +1,6 @@
-interface RegisterH2Props {
+interface H2Props {
   text: string
 }
-export default function RegisterH2(props: RegisterH2Props) {
+export default function H2(props: H2Props) {
   return <h2>{props.text}</h2>
 }

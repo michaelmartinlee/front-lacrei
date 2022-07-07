@@ -11,7 +11,9 @@ export const MainStyled = styled.main`
   }
   > p {
     height: 400px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     margin-bottom: 2rem;
+    max-width: 350px;
   }
 `
