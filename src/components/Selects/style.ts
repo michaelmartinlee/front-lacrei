@@ -7,9 +7,13 @@ export const StatesSelectStyled = styled.div`
     margin-top: 3rem;
   }
   > select {
-    margin: 3rem 0;
-    height: 50px;
-    border-radius: 8px;
-    padding: 5px;
+    margin: 0 0 3rem 0;
+    height: 52px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    min-width: calc(375px - 5rem);
   }
 `
