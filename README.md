@@ -1,62 +1,61 @@
-# 🏳️‍🌈 Protótipo Front-End Lacrei
+# 🏳️‍🌈 Lacrei Front-End Prototype
 
 ---
 
-## 📌 O Desafio
+## 📌 The Challenge
 
-A ideia é desenvolver um cadastro e página de perfil que contenha login, cadastro e perfil da pessoa profissional para a Lacrei, visando automatizar o processo atual para assim proporcionar uma melhor experiência para os profissionais, fazendo com que eles se cadastrem e se tornem parceiros.
+The idea is to develop a registration and profile page that includes login, registration, and a professional profile for Lacrei, aiming to automate the current process and provide a better experience for professionals, encouraging them to register and become partners.
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a **Implantação** dessa aplicação, nessecita clonar o repositório
+To **deploy** this application, you need to clone the repository:
 
-```
-git clone https://github.com/rafaelsangali/front-lacrei
-```
+git clone https://github.com/michaelmartinlee/front-lacrei
 
-Logo após, instalar pacotes e dependências
 
-```
+Then, install the packages and dependencies:
+
+
 npm install
-```
 
-### 📋 Funcionalidades
 
-Nossa aplicação tem o intuito de ser um protótipo totalmente modelavel, então podemos encontrar boas práticas de arquitetura de pastas:
+### 📋 Features
+
+Our application is intended to be a fully customizable prototype, so we implement best practices in folder architecture:
 #
 <div style="display: flex">
   <img src="./src/assets/readme/files.png">
 
-* A pasta "assets" : Armazena todos arquivos de imagens
+* The "assets" folder: Stores all image files
 
-* A pasta "components" :  Armazena todos componentes que são utilizados pelo menos 2 vezes na aplicação
+* The "components" folder: Stores all components that are used at least twice in the application
 
-* A pasta "Pages" : Onde temos toda a estrutura da página
+* The "Pages" folder: Contains the entire structure of the pages
 
-* A pasta "Styles" : Onde utilizamos estilos globais como font, margin e etc  
+* The "Styles" folder: Contains global styles like font, margin, etc.
 
-* No arquivo Routes.tsx, definimos todas as rotas da aplicação            
+* In the `Routes.tsx` file, all application routes are defined            
 </div>
 
 #
 ---
-##### Em /components , temos os principais os mais útilizados como:
+##### In /components, we have the main and most used components such as:
 
 #
 <div style="display: flex">
 
-* Componente Button :
+* **Button Component**:
 
 <img src="./src/assets/readme/Button.png">
 </div>
 
-* Componente ButtonBackProgress :
+* **ButtonBackProgress Component**:
 
 #
 
 <img src="./src/assets/readme/ButtonBackProgress.png">
 
-* Componente Header e Footer :
+* **Header and Footer Components**:
 
 #
 
@@ -64,49 +63,49 @@ Nossa aplicação tem o intuito de ser um protótipo totalmente modelavel, entã
 
 <div style="display: flex">
 
-* Componente InputRadioCarreer :
+* **InputRadioCareer Component**:
 
 <img src="./src/assets/readme/InputRadioCarreer.png">
 </div>
 
 #
-* Componente LabelInput :
+* **LabelInput Component**:
 
 #
 <img src="./src/assets/readme/LabelInput.png">
 
-* Componente LabelTextArea :
+* **LabelTextArea Component**:
 #
 <img src="./src/assets/readme/LabelTextArea.png">
 
 #
-* Componente StatesSelect :
+* **StatesSelect Component**:
 
 <img src="./src/assets/readme/StatesSelect.png">
 
 ---
 
-### 🔧 Ferramentas Utilizadas
+### 🔧 Tools Used
 
-Foram utilizados as seguintes ferramentas:
+The following tools were used:
 
-* [Typescript](https://www.typescriptlang.org/) - Linguagem
-* [Vite](https://vitejs.dev/) - Framework React
-* [Styled Components](https://https://styled-components.com/) - Framework de Estilização
+* [Typescript](https://www.typescriptlang.org/) - Programming Language
+* [Vite](https://vitejs.dev/) - React Framework
+* [Styled Components](https://https://styled-components.com/) - Styling Framework
 
 #
 ---
 
-## ✒️ Autores
+## ✒️ Authors
 #
 
-* [Rafael Sangali](https://github.com/rafaelsangali/)
+* [Michael Martin Lee](https://github.com/michaelmartinlee/)
 * [Marcelo Barbosa](https://github.com/Marceloabf)
 * [Beatriz Gebhardt](https://github.com/Beatrizgebhardt)
 
 #
 ---
 
-## 🎁 Expressões de gratidão
+## 🎁 Expressions of Gratitude
 #
-Estamos profundamentes gratos por participar de um projeto social com uma intenção tão nobre, esse amor que existe em nossos corações merece e deve ser espalhado para acolher e ajudar o máximo de pessoas que conseguirmos ❤️​.
+We are deeply grateful to have participated in a social project with such a noble intention. The love in our hearts deserves to be shared to welcome and help as many people as we can ❤️​.
